@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/oyuncu1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/oyuncu2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:rotation="180"
+        android:background="@drawable/button_selector"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="100dp" />
+
+    <Button
+        android:id="@+id/oyuncu2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/orta_cizgi"
+        android:background="@drawable/button_selector"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="100dp" />
+
+    <LinearLayout
+        android:id="@+id/orta_cizgi"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="false"
+        android:baselineAligned="false">
+
+    </LinearLayout>
+
+</RelativeLayout>

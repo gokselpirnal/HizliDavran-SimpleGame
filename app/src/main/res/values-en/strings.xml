@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hızlı Davran</string>
+    <string name="i_understand">I understand</string>
+    <string name="how_to_play">How to play ?</string>
+    <string name="gameplay">Two opposite human touch the own buttons in same time and  game begins.*n\nAfter a while, alert occurs. First human that release the button wins the round.\n\nAlert occurs random in time 1 second between 15 second</string>
+</resources>

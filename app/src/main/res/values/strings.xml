@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hızlı Davran</string>
+    <string name="how_to_play">Nasıl Oynanır ?</string>
+    <string name="i_understand">Anladım</string>
+    <string name="gameplay">Karşılıklı iki kişi aynı anda kendine ait butona basar ve oyun başlar.\n\n
+        Bir süre sonra bir uyarı sesi duyulur ve bu sesten sonra parmağını butondan ilk çeken kazanır.\n\n
+        Uyarı sesi en az 1 en fazla 15 saniye arasında rastgele çalar</string>
+</resources>
